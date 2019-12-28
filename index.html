@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Ajax</title>
+  </head>
+  <body>
+    <p>
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="Ваш email" />
+      <p id="emailError">Введён неправиный email</p>
+    </p>
+    <p>
+      <label for="email">Telephone</label>
+      <input type="tel" id="tel" placeholder="Ваш телефон" />
+      <p id="telError">Введён неправильный телефон</p>
+    </p>
+    <p>
+      <label for="password">Password</label>
+      <input type="text" id="password" />
+    </p>
+    <p>
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="text" id="confirmPassword" />
+      <p id="confirmError">Пароли не совпадают</p>
+    </p>
+    <button type="submit" id="myButton">Регистрация</button>
+
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

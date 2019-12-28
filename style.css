@@ -1,0 +1,22 @@
+label {
+  display: block;
+}
+body {
+  text-align: center;
+}
+#emailError {
+  display: none;
+  color: red;
+}
+#emailError {
+  display: none;
+  color: red;
+}
+#telError {
+  display: none;
+  color: red;
+}
+#confirmError {
+  display: none;
+  color: red;
+}
